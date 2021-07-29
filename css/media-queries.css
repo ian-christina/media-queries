@@ -1,6 +1,12 @@
 @media screen and (min-width: 320px) {
 	body{
+<<<<<<< HEAD
 		font-family: ;
+=======
+
+		font-family: Arial;
+
+>>>>>>> 8c0233932f625ede3eb7c8cdeb2e2f7cce8ccfb4
 		display: flex;
 		flex-direction: column;
 	}
@@ -9,4 +15,19 @@
 		border: 2px solid gray;
 		background-color: lightblue;
 	}
+<<<<<<< HEAD
+=======
+{
+	margin: auto;
+		flex-grow: 1;
+		padding: 20px;
+
+	}
+
+	/*div > a {*/
+	/*	margin: auto;*/
+	/*}*/
+
+
+>>>>>>> 8c0233932f625ede3eb7c8cdeb2e2f7cce8ccfb4
 }
