@@ -1,8 +1,6 @@
 @media screen and (min-width: 320px) {
 	body{
-
 		font-family: Arial;
-
 		display: flex;
 		flex-direction: column;
 	}
@@ -10,17 +8,30 @@
 	.alert-info {
 		border: 2px solid gray;
 		background-color: lightblue;
-	}
-{
-	margin: auto;
+		width: auto;
+		/*margin: auto;*/
 		flex-grow: 1;
 		padding: 20px;
-
+		text-align: center;
 	}
 
-	/*div > a {*/
-	/*	margin: auto;*/
-	/*}*/
+	h1 {
+		text-align: center;
+	}
 
+	ul {
+		list-style-type: none;
+	}
 
+	ul.nav-links {
+		padding: 0;
+	}
+
+	li {
+		border: 1px solid lightgray;
+		background-color: lightgray;
+		text-align: center;
+		margin: 10px;
+		padding: 15px;
+	}
 }
