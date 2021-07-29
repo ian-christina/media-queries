@@ -1,0 +1,21 @@
+@media screen and (min-width: 320px) {
+	body{
+		font-family: Arial;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.alert-info {
+		border: 2px solid gray;
+		background-color: lightblue;
+		/*margin: auto;*/
+		flex-grow: 1;
+		padding: 20px;
+
+	}
+
+	/*div > a {*/
+	/*	margin: auto;*/
+	/*}*/
+
+}
