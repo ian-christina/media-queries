@@ -1,47 +1,47 @@
-@media screen and (min-width: 320px) {
-	body{
-		font-family: Arial;
-		display: flex;
-		flex-direction: column;
-	}
-	.alert-info {
-		border: 2px solid gray;
-		background-color: lightblue;
-		width: auto;
-		flex-grow: 1;
-		padding: 20px;
-		text-align: center;
-	}
+/*@media screen and (min-width: 320px) {*/
+/*	body{*/
+/*		font-family: Arial;*/
+/*		display: flex;*/
+/*		flex-direction: column;*/
+/*	}*/
+/*	.alert-info {*/
+/*		border: 2px solid gray;*/
+/*		background-color: lightblue;*/
+/*		width: auto;*/
+/*		flex-grow: 1;*/
+/*		padding: 20px;*/
+/*		text-align: center;*/
+/*	}*/
 
-	h1 {
-		text-align: center;
-	}
+/*	h1 {*/
+/*		text-align: center;*/
+/*	}*/
 
-	ul {
-		list-style-type: none;
-	}
+/*	ul {*/
+/*		list-style-type: none;*/
+/*	}*/
 
-	ul.nav-links {
-		padding: 0;
-	}
+/*	ul.nav-links {*/
+/*		padding: 0;*/
+/*	}*/
 
-	li {
-		border: 1px solid lightgray;
-		background-color: lightgray;
-		text-align: center;
-		margin: 10px;
-		padding: 15px;
-	}
+/*	li {*/
+/*		border: 1px solid lightgray;*/
+/*		background-color: lightgray;*/
+/*		text-align: center;*/
+/*		margin: 10px;*/
+/*		padding: 15px;*/
+/*	}*/
 
-	img {
-		height: auto;
-		max-width: 285px;
-		margin: 10px;
-	}
-	.sub-section{
-		font-style: italic;
-	}
-}
+/*	img {*/
+/*		height: auto;*/
+/*		max-width: 285px;*/
+/*		margin: 10px;*/
+/*	}*/
+/*	.sub-section{*/
+/*		font-style: italic;*/
+/*	}*/
+/*}*/
 
 @media screen and (min-width: 992px){
 	.alert-info{
@@ -49,13 +49,13 @@
 	}
 	body {
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
 		align-content: center;
+		flex-direction: row;
 		/*margin: 10px;*/
 	}
 	h1 {
 		display: flex;
-		flex-flow: row wrap;
 		justify-content: space-between;
 		/*margin-left: 10px;*/
 		flex-grow: 1;
@@ -66,26 +66,37 @@
 
 	ul.nav-links {
 		display: flex;
-		flex-flow: row wrap;
 		justify-content: flex-end;
 		/*margin-right: 60px;*/
 	}
 
 	li {
-		margin: 0px;
+		margin-right: 20px;
 		border: white;
 		background-color: white;
 	}
 
+	ul {
+		list-style-type: none;
+	}
+
 	img {
 		height: auto;
-		min-width: 890px;
+		width: 1200px;
+
 	}
 
 	.header-img {
+align-content: center;
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		/*margin-left: auto;*/
+		margin-left: 100px;
+	}
+
+	.main {
+		width: 60%;
+		margin-right: 40px;
+	}
+	.sub-section{
+		width: 25%;
 	}
 }
