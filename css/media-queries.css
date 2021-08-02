@@ -4,14 +4,13 @@
 		display: flex;
 		flex-direction: column;
 	}
-
 	.alert-info {
 		border: 2px solid gray;
 		background-color: lightblue;
 		width: auto;
-		/*margin: auto;*/
 		flex-grow: 1;
 		padding: 20px;
+
 		text-align: center;
 	}
 
